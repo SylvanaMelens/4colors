@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+}
+
+h1,
+h2 {
+  color: #264268;
+}
+
+.conteneur {
+  background-color: whitesmoke;
+  margin-left: 15px;
+  margin-top: 0.1em;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #264268;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.conteneur .couleurs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.brique {
+  width: 95px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #000000;
+  margin: 5px;
+  color: white;
+  font-weight: 500;
+  padding-top: 17px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.explications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  color: darkslategrey;
+}
+
+span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.separateur {
+  height: 2em;
+}
+/*# sourceMappingURL=style.css.map */
