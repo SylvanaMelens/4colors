@@ -10,8 +10,8 @@ $N9: #000000;
   padding: 0;
 }
 body {
-  margin-left: 0.8em;
-  background-color: $BG;
+  margin-left: 0.75em;
+  background: linear-gradient(lightgrey, whitesmoke, white);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -21,28 +21,37 @@ body {
 
 h1,
 h2 {
+  color: teal;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
   color: $titles;
 }
 
-.conteneur {
-  background-color: whitesmoke;
-  margin-left: 1em;
-  margin-top: 0.1em;
-  margin-right: 1em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid $titles;
-  padding: 5px;
-  border-radius: 10px;
-  .couleurs {
+.overlay {
+  width: 370px;
+  .conteneur {
+    background-color: whitesmoke;
+    margin-left: 1em;
+    margin-top: 0.1em;
+    margin-right: 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    vertical-align: center;
+    align-items: center;
+    border: 2px solid $titles;
+    padding: 5px;
+    border-radius: 10px;
+    .couleurs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      vertical-align: center;
+    }
   }
 }
 
@@ -56,6 +65,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
+  margin: 0.1em;
 }
 
 .explications {

@@ -7,8 +7,9 @@
 }
 
 body {
-  margin-left: 0.8em;
-  background-color: white;
+  margin-left: 0.75em;
+  background: -webkit-gradient(linear, left top, left bottom, from(lightgrey), color-stop(whitesmoke), to(white));
+  background: linear-gradient(lightgrey, whitesmoke, white);
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,10 +25,20 @@ body {
 
 h1,
 h2 {
+  color: teal;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
   color: #264268;
 }
 
-.conteneur {
+.overlay {
+  width: 370px;
+}
+
+.overlay .conteneur {
   background-color: whitesmoke;
   margin-left: 1em;
   margin-top: 0.1em;
@@ -52,7 +63,7 @@ h2 {
   border-radius: 10px;
 }
 
-.conteneur .couleurs {
+.overlay .conteneur .couleurs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,9 +71,9 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   vertical-align: center;
 }
@@ -77,6 +88,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
+  margin: 0.1em;
 }
 
 .explications {
