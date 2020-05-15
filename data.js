@@ -17,7 +17,7 @@ export let couleurBrique = [
   "rouge",
   "gris",
   "vert",
-  "bleu",
+  "marron",
 ];
 
 export let enonces = [
