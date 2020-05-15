@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/419bcc49-f5c6-4fdd-bdff-ef9b1840633f/deploy-status)](https://app.netlify.com/sites/trouvelecodede4couleurs/deploys)
